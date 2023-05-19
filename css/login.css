@@ -1,0 +1,71 @@
+/* Reset styles */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button {
+    margin: 0;
+    padding: 0;
+}
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: cyan;
+        }
+
+        .container {
+            width: 300px;
+            padding: 20px;
+            background: #f1f1f1;
+            border-radius: 5px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container label {
+            margin-bottom: 10px;
+        }
+
+        .container input {
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        .container button {
+            padding: 8px;
+        }
+
+        .error {
+            color: red;
+            margin-bottom: 10px;
+        }
+ 
