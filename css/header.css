@@ -1,0 +1,45 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #64c4da;
+    height: 50px;
+    padding: 0 20px; /* Added padding to align content properly */
+    z-index: 9999; /* Ensures the header stays on top of other elements */
+}
+
+.nav-items {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 5px;
+}
+
+.nav-items li {
+    margin-left:20px ;
+}
+
+.nav-items li:first-child {
+    margin-left: 300%; /* Aligns the first item to the right */
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.nav-items li a.active {
+    color: rgb(234, 242, 16);
+    border-bottom: black 3px solid;
+}
+
+.nav-items li a:hover {
+    color: rgb(234, 242, 16);
+}

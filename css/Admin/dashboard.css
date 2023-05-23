@@ -1,0 +1,12 @@
+body {
+    margin: 0; /* Remove default body margin */
+}
+.full-screen-container {
+    margin-top:50px;
+    height: 93vh;
+    background-color: #0b8181;
+    padding-left: 0; /* Remove left padding */
+    padding-right: 0; /* Remove right padding */
+    margin-left: 0; /* Remove left margin */
+    margin-right: 0; /* Remove right margin */
+}

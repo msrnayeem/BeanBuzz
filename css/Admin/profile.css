@@ -1,0 +1,46 @@
+body {
+    margin: 0; /* Remove default body margin */
+}
+.full-screen-container {
+    margin-top: 50px;
+    height: 100vh; /* Adjust the height to leave space for the fixed header */
+    background-color: #0b8181;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    display: flex;
+    background-color: #fff;
+    width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.profile-image {
+    flex: 0 0 auto;
+    margin-right: 170px;
+    margin-left: 30px;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    flex: 1 1 auto;
+}
+
+.profile-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    margin-bottom: 5px;
+}
