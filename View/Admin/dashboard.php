@@ -10,6 +10,6 @@ session_start();
 ?>
 <div class="full-screen-container">
         <!-- Your content goes here -->
-        <p> ok</p>
+        
     </div>
 
