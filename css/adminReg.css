@@ -1,0 +1,13 @@
+.container {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .container h2 {
+    margin-bottom: 20px;
+  }
+  

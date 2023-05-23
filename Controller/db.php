@@ -3,7 +3,7 @@ class dbConnect{
     private $servername = "localhost";
     private $username = "root";
     private $password = "";
-    private $dbname = "employee";
+    private $dbname = "BeanBuzz";
     private $conn;
 
     public function __construct() {
@@ -26,8 +26,8 @@ class dbConnect{
     }
 
     public function insert($table, $data) {
-        $columns = implode(', ', array_keys($data));
-        $values = "'" . implode("', '", array_values($data)) . "'";
+        $columns = implode(', ', array_keys(get_object_vars($data)));
+        $values = "'" . implode("', '", array_values(get_object_vars($data))) . "'";
         $sql = "INSERT INTO $table ($columns) VALUES ($values)";
         return $this->conn->query($sql);
     }
